@@ -1,0 +1,54 @@
+$white: #FFFFFF;
+$light-brown: #FFE3BE;
+$brown: #715D41;
+$dark-brown: #B2813F;
+$accent: #D37900;
+$very-dark-brown: #2A1800;
+
+
+
+.intro { 
+        color:rgba( $white, .7);
+       //height:100vh;
+  display: flex;
+ background-size: cover;
+  background-position: center;
+ align-items: center;
+ justify-content: center;
+      
+        
+        
+  h2 { color: $white;}      
+}
+
+.intro-middle { 
+          background: $dark-brown;
+          padding: 2.5em 5vw;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          //height:100vh;
+                
+}
+
+ 
+.intro-right img .intro-left img  {
+    object-fit: cover;
+   
+   //justify-content: right;
+   background-size: cover;
+ 
+}
+
+.intro-right .intro-left {
+     display: flex;
+      min-height: 100%;
+    min-width: 100%;
+}
+
+
+
+
+
+
